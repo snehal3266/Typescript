@@ -2,6 +2,7 @@ class Car{
     private type:String;
     private model:String;
     private color:String;
+    
 
     get():void{
         this.type = "ciaz";
