@@ -1,0 +1,11 @@
+var num1 = 20;
+var num2 = 40;
+var result;
+result = num1 + num2;
+console.log("sum:" + result);
+result = num1 - num2;
+console.log("sub:" + result);
+result = num1 * num2;
+console.log("mul:" + result);
+result = num1 / num2;
+console.log("div:" + result);
