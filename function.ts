@@ -51,3 +51,14 @@ var my = function() {
     console.log(square); 
  } 
  Square(30,25);
+
+ //Typescript Function Overloading
+
+ function showDetails(name:string):void{
+    console.log(name); 
+  } 
+  function show(empId:number):void{
+    console.log(empId); 
+  }
+  showDetails("Vishal") 
+  show(123);
