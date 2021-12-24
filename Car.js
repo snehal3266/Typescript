@@ -1,11 +1,9 @@
 var Car = /** @class */ (function () {
-    function Car() {
+    function Car(t, m, c) {
+        this.type = t;
+        this.model = m;
+        this.color = c;
     }
-    Car.prototype.get = function () {
-        this.type = "ciaz";
-        this.model = "2013";
-        this.color = "gray";
-    };
     Car.prototype.display = function () {
         console.log("type:" + this.type);
         console.log("model:" + this.model);
@@ -13,6 +11,7 @@ var Car = /** @class */ (function () {
     };
     return Car;
 }());
-var c = new Car();
-c.get();
+var c = new Car("Ciaz", "2021", "Gray");
+c.display();
+c = new Car("Hundai-Elantra", "2015", "White");
 c.display();
