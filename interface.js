@@ -2,7 +2,7 @@ var student = {
     name: "Sneha",
     id: 1,
     mobile_no: 9876543265,
-    call: function () { return "student call"; }
+    call: function () { return "!! student !!"; }
 };
 console.log("Student Object Details: ");
 console.log(student.call());
@@ -13,7 +13,7 @@ var teacher = {
     name: "Rutuja",
     id: 2,
     mobile_no: 9087564885,
-    call: function () { return "teacher call"; }
+    call: function () { return "!! teacher !!"; }
 };
 console.log("Teacher Object Details: ");
 console.log(teacher.call());

@@ -8,7 +8,8 @@ interface Person {
         name:"Sneha",
         id:1,
         mobile_no:9876543265,
-       call: ():string =>{return "student call"}
+       call: ():string =>{return "!! student !!"}
+       
     }
     console.log("Student Object Details: ");
     console.log(student.call());
@@ -16,12 +17,12 @@ interface Person {
     console.log(student.id);
     console.log(student.mobile_no);
 
-
+    
     var teacher:Person = {
     name:"Rutuja",
     id:2,
     mobile_no:9087564885,
-    call: ():string =>{return "teacher call"}
+    call: ():string =>{return "!! teacher !!"}
     }
     console.log("Teacher Object Details: ");
     console.log(teacher.call());
