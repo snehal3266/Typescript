@@ -7,7 +7,6 @@ class Calculator{
     private sum:number;
     private average:number;
   
-  
 
     get():void{
         this.num1 = 75;
