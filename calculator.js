@@ -21,6 +21,6 @@ var Calculator = /** @class */ (function () {
     };
     return Calculator;
 }());
-var c = new Calculator;
+var c = new Calculator();
 c.get();
 c.display();
