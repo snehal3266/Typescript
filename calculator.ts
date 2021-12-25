@@ -30,6 +30,6 @@ class Calculator{
     }
 
 }
-let c = new Calculator;
+let c = new Calculator();
 c.get();
 c.display();
