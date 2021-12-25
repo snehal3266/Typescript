@@ -20,7 +20,7 @@ interface Person {
     
     var teacher:Person = {
     name:"Rutuja",
-    id:2,
+      id:2,
     mobile_no:9087564885,
     call: ():string =>{return "!! teacher !!"}
     }
