@@ -1,11 +1,11 @@
-interface Person {
+interface BigBoss {
     age:number;
     name:string;
     }
-    interface Student extends Person {
+    interface Winner extends BigBoss {
     id:number;
     }
-    var king = <Student>{};
+    var king = <Winner>{};
     king.age = 24;
     king.name = "Vishal";
     king.id=1;
