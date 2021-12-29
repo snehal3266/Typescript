@@ -1,4 +1,4 @@
-//TypeScript Number Object 
+ //TypeScript Number Object 
 
 var num: number;
 
@@ -23,7 +23,7 @@ function Test2(bVar: Boolean): void {
     console.log(bVar.valueOf());
 }
 var A = new Boolean(true);
-var B= new Boolean(false);
+var B = new Boolean(false);
 var C: boolean = true;
 Test2(A);
 Test2(B);
